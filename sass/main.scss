@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import "compass";
+
+//base
+@import "base/_reset";
+@import "base/_variable";
+@import "base/_mixin";
+
+//layout
+@import "layout/_layout";
+@import "layout/_header";
+@import "layout/_fixed";
+@import "layout/_footer";
+
+//page
+@import "pages/_index";
+@import "pages/_certification";
+

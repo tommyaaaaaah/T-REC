@@ -1,0 +1,92 @@
+.fixed{
+	padding: 30px 15px;
+	background-color: #59b4d8;
+	color: #fff;
+	transition: 0.5s;
+	position: fixed;
+	top: 50%;
+	right: 0;
+	&.open {
+		padding: 70px 15px 10px 50px;
+		background-color: #4ac982;
+	}
+
+	a{
+		display: inline-block;
+		width: 20px;
+		padding-top: 30px;
+		font-size: 14px;
+		color: #fff;
+		text-align: center;
+		line-height: 1.4;
+		background-image: url(../images/icon_fixed.png);
+		background-size: 28px auto;
+		background-repeat: no-repeat;
+		background-position: top center;
+		float: right;
+		cursor: pointer;
+		img{
+			width: 16px;
+		}
+		&.close{
+			display: none;
+			width: 30px;
+			padding-top: 0;
+			background: none;
+			position: absolute;
+			top: 20px;
+			right: 15px;
+			img{
+				width: 30px;
+			}
+		}
+	}
+	.statistics_box{
+		display: none;
+		width: 400px;
+		overflow: hidden;
+		float: left;
+		ul{
+			width: 60%;
+			float: left;
+			&:last-child{
+				width: 40%;
+			};
+			li{
+				overflow: hidden;
+				margin-bottom: 50px;
+				embed{
+					width: 45px;
+					margin-right: 20px;
+					float: left;
+				}
+				.text{
+					color: #fff;
+					float: left;
+					p.title{
+						font-size: 14px;
+					}
+					p.amount{
+						margin-top: 10px;
+						font-size: 14px;
+						span{
+							margin-right: 10px;
+							font-size: 24px;
+							font-weight: bold;
+						}
+					}
+				}
+			}
+		}
+	}//statistics_box
+}//fixed
+
+
+
+
+
+@media all and (max-width: 980px) {
+
+}//max-width: 980px
+
+

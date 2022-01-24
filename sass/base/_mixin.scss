@@ -1,0 +1,67 @@
+//文字
+@mixin font-color($size, $color:$textcolor, $weight:normal, $line:1.3 ){
+	font-size: $size;
+	font-weight: $weight;
+	color: $color;
+	line-height: $line;
+	text-decoration: none;
+}
+// @mixin font-justify($width){
+// 	width: $width;
+// 	text-align: justify;
+// 	text-justify: inter-ideograph;
+// 	-ms-text-justify: inter-ideograph; /*IE9*/
+// 	-moz-text-align-last:justify; /*Firefox*/
+// 	-webkit-text-align-last:justify; /*Chrome*/
+// 	&:after{
+// 		content: '';
+// 		display: inline-block;
+// 		width: 100%;
+// 	}
+// }
+
+@mixin hover-opacity( $second:0.5s){
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.14);
+	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.14);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.14);
+	transition: all $second;
+}
+@mixin text-too-much($width,$height,$line){
+	width: $width;
+	height: $height;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: $line; /* 第幾行要顯示點點點 */
+	-webkit-box-orient: vertical;
+}
+// %text-indent{
+// 	overflow: hidden;
+// 	text-indent: 100%;
+// 	white-space: nowrap;
+// }
+// %bordertop-bg{
+// 	padding: 20px 15px;
+// 	border-top: 10px $maincolor solid;
+// }
+
+
+%box-shadow{
+	box-shadow: 0px 0px 10px #aaa;
+}
+%background{
+	overflow: hidden;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+%pic-background{
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+%vertical-center{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}

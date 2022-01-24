@@ -1,0 +1,219 @@
+.certification{
+/*-----------------banner-----------------*/
+	.banner{
+		width: 100%;
+		height: 300px;
+		margin-bottom: 100px;
+		position: relative;
+		.bg_color{
+			width: 80%;
+			height: 210px;
+			background-color: #4ac982;
+			position: absolute;
+		}
+		.banner_img{
+			width: 80%;
+			height: 150px;
+			overflow: hidden;
+			background-color: #ebf5ec;
+			position: absolute;
+			top: 98px;
+			right: 0;
+		}
+	}//banner
+/*-----------------h1-----------------*/
+	h1{
+		padding-top: 230px;
+		text-align: center;
+		position: relative;
+		p{
+			color: #222;
+			&.ch{
+				margin-bottom: 20px;
+				font-size: 30px;
+				font-weight: bold;
+				letter-spacing: 3px;
+			}
+			&.en{
+				font-size: 12px;
+				font-weight: bold;
+			}
+		}
+	}
+/*-----------------years-----------------*/
+	.years{
+		margin-bottom: 30px;
+		a{
+			display: inline-block;
+			padding: 15px 25px; 
+			margin-right: 10px;
+			font-size: 16px;
+			color: #222;
+			border: 1px #4ac982 solid;
+			cursor: pointer;
+			transition: all 0.5s;
+			&.this, &:hover{
+				color: #fff;
+				background-color: #4ac982;
+				transition: all 0.5s;
+			}
+		}
+	}
+	.count{
+		margin-bottom: 50px;
+		p{
+			margin-bottom: 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #222;
+			span{
+				color: #4ac982;
+			}
+			input{
+				display: inline-block;
+				width: 145px;
+				height: 45px;
+				margin: 0 15px;
+				border: 1px #bddfc0 solid;
+				border-radius: 2px;
+			}
+		}
+	}
+/*-----------------table-----------------*/
+	.table{
+		border-left: 1px #4ac982 solid;
+		border-bottom: 1px #4ac982 solid;
+		li{
+			overflow: hidden;
+			font-size: 15px;
+			color: #555;
+			text-align: center;
+			border-bottom: 1px #4ac982 solid;
+			&:first-child{
+				color: #fff;
+				background-color: #4ac982;
+				.item{
+					display: block;
+				}
+				span{
+					border-right: 1px #fff solid;
+				}
+			}
+			&:last-child{
+				border-bottom: none;
+			}
+			.first{
+				width: 50%;
+				overflow: hidden;
+				float: left;
+				span{
+					width: 50%;
+					a{
+						display: block;
+						margin-top: 10px;
+						font-size: 14px;
+						color: #4ac982;
+						transition: all 0.5s;
+						&:hover{
+							opacity: 0.7;
+							transition: all 0.5s;
+						}
+					}
+				}
+			}//first
+			.second{
+				width: 50%;
+				overflow: hidden;
+				float: left;
+				span{
+					width: calc(100% / 4);
+					&:last-child{
+						border-bottom: none;
+					};
+				}
+			}//second
+			.item, .data{
+				overflow: hidden;
+			}
+			.item{
+				display: none;
+			}
+			span{
+				// display: table-cell;
+				padding: 10px;
+				border-right: 1px #4ac982 solid; 
+				float: left;
+			}
+		}//li
+	}//table
+
+	.pagebox{
+		max-width: 1000px;
+		overflow: hidden;
+		margin: 60px auto 0;
+		text-align: center;
+		.page{
+			display: inline-block;
+			padding-left: 0;
+			margin: 0 auto;
+			> dt a{
+				padding: 8px 9px;
+				margin: 0 5px;
+				font-size: 14px;
+				color: #555;
+				border: 1px #4ac982 solid;
+				float: left;
+				transition: all 0.5s;
+				&:hover{
+					color: #fff;
+					background-color: #4ac982;
+					transition: all 0.5s;
+				}
+			}
+			> dd > a{
+				padding: 8px 10px;
+				margin: 0 5px;
+				font-size: 14px;
+				color: #555;
+				border: 1px #4ac982 solid;
+				float: left;
+				transition: all 0.5s;
+				&:hover, &.mark{
+					color: #fff;
+					background-color: #4ac982;
+					transition: all 0.5s;
+				}
+			}
+			> dt, dd {
+				display: inline;
+			}
+		}
+	}//pagebox
+}//certification
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 980px) {
+.index{
+
+}//index
+}//max-width: 980px
+
+
+
+
+@media all and (max-width: 767px) {
+.index{
+
+}//index
+}//max-width: 767px
+

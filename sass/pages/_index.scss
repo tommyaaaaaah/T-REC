@@ -1,0 +1,492 @@
+.index{
+/*-----------------banner-----------------*/
+	.banner{
+		width: 100%;
+		height: 690px;
+		position: relative;
+		.bg_color{
+			width: 80%;
+			height: 585px;
+			background-color: #4ac982;
+			position: absolute;
+		}
+		.banner_img{
+			width: 80%;
+			height: 555px;
+			overflow: hidden;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			top: 98px;
+			right: 0;
+		}
+		p.title{
+			display: inline-block;
+			font-size: 46px;
+			font-weight: bold;
+			color: #fff;
+			text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+			letter-spacing: 5px;
+			line-height: 1.5;
+			position: absolute;
+			top: 45%;
+			left: 12%;
+		}
+		a{
+			font-size: 15px;
+			color: #fff;
+			line-height: 18px;
+			text-align: center;
+			padding: 30px 20px 30px 40px;
+			background-color: #4ac982;
+			position: absolute;
+			bottom: 0;
+			right: 10%;
+			transition: all 0.5s;
+			embed{
+				width: 14px;
+				margin-right: 20px;
+				float: left;
+				&:last-child{
+					width: 25px;
+					margin-top: 5px;
+					margin-left: 30px;
+					float: right;
+				};
+			}
+			&:hover{
+				opacity: 0.7;
+				transition: all 0.5s;
+			}
+		}//a
+	}//banner
+/*-----------------h2-----------------*/
+	h2{
+		margin: 150px 0 60px;
+		text-align: left;
+		p{
+			color: #222;
+			&.en{
+				margin-bottom: 20px;
+				font-size: 26px;
+			}
+			&.ch{
+				font-size: 12px;
+				font-weight: bold;
+			}
+
+		}
+		&.top{
+			margin-top: 80px;
+		}
+	}
+/*-----------------再生能源憑證步驟-----------------*/
+	.step_box{
+		overflow: hidden;
+		> div{
+			overflow: hidden;
+			margin-right: -20px;
+		}
+		a{
+			display: inline-block;
+			width: calc(20% - 20px);
+			height: 180px;
+			margin-right: 20px;
+			font-size: 20px;
+			text-align: center;
+			float: left;
+			transition: all 0.5s;
+			&.title{
+				padding-top: 45px;
+				embed{
+					display: block;
+					width: 25px;
+					margin: 40px 0 0 50px;
+				}
+				&:hover{
+					opacity: 1;
+				}
+			}
+			> embed{
+				display: block;
+				margin: 50px auto 30px;
+				height: 40px;
+			}
+			&:hover{
+				opacity: 0.7;
+				transition: all 0.5s;
+			}
+		}
+		&.green{
+			margin-bottom: 30px;
+			a{
+				color: #39ae65;
+				border: 2px #39ae65 solid;
+				&.title{
+					color: #fff;
+					border: 2px #4ac982 solid;
+					background-color: #4ac982;
+				}
+				&:nth-child(3){
+					embed{
+						height: 35px;
+						margin: 55px auto 30px;
+					}
+				}
+			}
+
+		}
+		&.blue{
+			a{
+				color: #40a3ca;
+				border: 2px #40a3ca solid;
+				&.title{
+					color: #fff;
+					border: 2px #59b4d8 solid;
+					background-color: #59b4d8;
+				}
+			}
+		}
+	}//step_box
+/*-----------------什麼是再生能源憑證-----------------*/
+	.concept{
+		width: 1100px;
+		margin: 0 auto;
+		.text{
+			width: 40%;
+			float: left;
+			p{
+				font-size: 15px;
+				color: #555;
+				line-height: 2;
+			}
+			a{
+				display: inline-block;
+				margin-top: 60px;
+				font-size: 13px;
+				color: #222;
+				text-align: center;
+				padding: 25px 30px;
+				border: 1px #4ac982 solid;
+				transition: all 0.5s;
+				embed{
+					width: 25px;
+					margin-left: 30px;
+				}
+				&:hover{
+					opacity: 0.7;
+					transition: all 0.5s;
+				}
+			}
+		}
+		.pic{
+			width: 60%;
+			float: right;
+			img{
+				width: 100%;
+				height: auto;
+			}
+		}
+	}//concept
+/*-----------------憑證特點優勢-----------------*/
+	.advantage{
+		margin-top: 150px;
+		padding-bottom: 50px;
+		background-color: #ebf5ec;
+		h2{
+			margin-bottom: 0;
+		}
+		.advantage_box{
+			height: 400px;
+			margin-bottom: 40px;
+			clear: both;
+			position: relative;
+			.text{
+				float: left;
+				position: relative;
+				z-index: 1;
+				p.title{
+					margin-bottom: 50px;
+					font-size: 26px;
+					color: #222;
+					line-height: 1.5;
+				}
+				p.inner{
+					font-size: 15px;
+					color: #555;
+					letter-spacing: 2px;
+					line-height: 2;
+				}
+			}
+			.pic{
+				float: right;
+				embed{
+					height: 360px;
+				}
+			}
+			span.step{
+				font-family: Arial;
+				font-size: 300px;
+				color: #fff;
+				position: absolute;
+			}
+			&.one{
+				.text{
+					margin-top: 80px;
+				}
+				.pic{
+				}
+				span.step{
+					top: 20%;
+					left: 30%;
+				}
+			}//.one
+			&.two{
+				.text{
+					margin-top: 70px;
+					margin-right: 50px;
+					float: right;
+				}
+				.pic{
+					margin-left: -50px;
+					float: left;
+					embed{
+						height: 400px;
+					}
+				}
+				span.step{
+					bottom: 0;
+					right: 0;
+				}
+			}//.two
+			&.three{
+				.text{
+					margin-top: 90px;
+					margin-left: 50px;
+				}
+				.pic{
+				}
+				span.step{
+					top: 0;
+					left: -5%;
+				}
+			}//.three
+			&.four{
+				.text{
+					margin-top: 90px;
+					margin-right: 10%;
+					float: right;
+				}
+				.pic{
+					margin-left: 50px;
+					float: left;
+				}
+				span.step{
+					top: -10%;
+					right: 2%;
+				}
+			}//.four
+		}//advantage_box
+	}//advantage
+/*-----------------再生能源憑證統計概要-----------------*/
+	.statistics{
+		.pic{
+			width: 100%;
+			height: 600px;
+			overflow: hidden;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.statistics_box{
+			width: 100%;
+			overflow: hidden;
+			margin: -25% 0 0 20%;
+			padding: 90px 160px 0 90px;
+			background-color: #4ac982;
+			h2{
+				margin: 0 0 60px;
+				p{
+					color: #fff;
+				}
+			}
+			ul{
+				width: 35%;
+				float: left;
+				li{
+					overflow: hidden;
+					margin-bottom: 100px;
+					embed{
+						width: 65px;
+						margin-top: 10px;
+						margin-right: 30px;
+						float: left;
+					}
+					.text{
+						color: #fff;
+						float: left;
+						p.amount{
+							margin-bottom: 20px;
+							font-size: 14px;
+							span{
+								margin-right: 10px;
+								font-size: 40px;
+								font-weight: bold;
+							}
+						}
+						p.title{
+							font-size: 15px;
+						}
+					}
+				}
+			}
+		}//statistics_box
+	}//statistics
+/*-----------------案場地理資訊-----------------*/
+	.place{
+		width: 80%;
+		overflow: hidden;
+		margin-left: 20%;
+		.place_box{
+			width: 300px;
+			float: left;
+			.pic{
+				width: 300px;
+				height: 210px;
+				overflow: hidden;
+				margin-bottom: 50px;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			.title{
+				font-size: 26px;
+				color: #222;
+				line-height: 1.5;
+			}
+			i{
+				display: block;
+				width: 35px;
+				margin: 30px 0;
+				border-bottom: 1px #4ac982 solid;
+			}
+			.data{
+				li{
+					margin-bottom: 20px;
+					font-size: 15px;
+					color: #555;
+					span{
+						margin-right: 10px;
+						font-weight: bold;
+					}
+				}
+			}
+		}//place_box
+		.map{
+			width: calc(100% - 300px - 30px);
+			height: 560px;
+			float: right;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}//map
+	}//place
+/*-----------------焦點快訊-----------------*/
+	.focus{
+		width: 40%;
+		margin-top: 150px;
+		padding: 60px 0 60px 20%;
+		background-color: #4ac982;
+		float: left;
+		h2{
+			margin: 0 0 250px 0;
+			p{
+				color: #fff;
+			}
+		}
+		a{
+			display: inline-block;
+			font-size: 13px;
+			color: #fff;
+			text-align: center;
+			padding: 25px 30px;
+			border: 1px #fff solid;
+			transition: all 0.5s;
+			embed{
+				width: 25px;
+				margin-left: 30px;
+			}
+			&:hover{
+				opacity: 0.7;
+				transition: all 0.5s;
+			}
+		}//a
+	}//focus
+	.focus_list{
+		width: 45%;
+		margin-top: 150px;
+		padding: 60px 0 30px 10%;
+		float: left;
+		li{
+			margin-bottom: 30px;
+			time{
+				font-size: 15px;
+				color: #555;
+			}
+			a{
+				display: inline-block;
+				width: 100%;
+				height: 16px;
+				overflow : hidden;
+				margin-top: 10px;
+				font-size: 15px;
+				color: #222;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				transition: all 0.5s;
+				&:hover{
+					opacity: 0.7;
+					transition: all 0.5s;
+				}
+			}
+			a.tag{
+				width: auto;
+				height: auto;
+				overflow: inherit;
+				margin-top: 0;
+				padding: 5px 10px;
+				font-size: 13px;
+				color: #fff;
+				background-color: #4ac982;
+			}
+		}
+	}//focus_list
+}//index
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 980px) {
+.index{
+
+}//index
+}//max-width: 980px
+
+
+
+
+@media all and (max-width: 767px) {
+.index{
+
+}//index
+}//max-width: 767px
+
